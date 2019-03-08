@@ -4,7 +4,7 @@
 
 Implementation of Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior.
 
-### Research Papers
+### [Research Paper](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/qingsongzhu2015.pdf)
 Q. Zhu, J. Mai, and L. Shao ,"A Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior", in IEEE Transactions On Image Processing, Vol. 24, NO. 11, NOVEMBER 2015, pp. 3522-3533
 
 ### Dependencies
@@ -30,7 +30,7 @@ Q. Zhu, J. Mai, and L. Shao ,"A Fast Single Image Haze Removal Algorithm Using C
 
 ## Image Hazing
 
-### Research Papers
+### [Research Paper](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/zhang2017.pdf)
 Zhang, Ning, Lin Zhang, and Zaixi Cheng. "Towards Simulating Foggy and Hazy Images and Evaluating Their Authenticity." International Conference on Neural Information Processing. Springer, Cham, 2017.
 
 ### License:
