@@ -1,4 +1,5 @@
 # Hazing and Dehazing image processing project
+CSE4019: Image Processing at VIT, Vellore.
 
 ## Dehazing - Color Attenuation
 
