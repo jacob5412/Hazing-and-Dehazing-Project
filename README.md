@@ -31,16 +31,29 @@ Q. Zhu, J. Mai, and L. Shao ,"A Fast Single Image Haze Removal Algorithm Using C
 ## Dehazing - Dark Channel Prior
 This program implement single image dehazing using dark channel prior. 
 
+## Research Papers
+[He, Kaiming, Jian Sun, and Xiaoou Tang. "Single image haze removal using dark channel prior." IEEE transactions on pattern analysis and machine intelligence 33.12 (2011): 2341-2353.](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/kaiminghe2011.pdf)
+[He, Kaiming, Jian Sun, and Xiaoou Tang. "X.: Guided image filtering." In: ECCV. 2010.](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/he2010.pdf)
+
 ### Dependencies
 1. Python 3.7
 2. Python Packages
    * numpy
    * cv2
    * matplotlib
-  
-## Research Papers
-[He, Kaiming, Jian Sun, and Xiaoou Tang. "Single image haze removal using dark channel prior." IEEE transactions on pattern analysis and machine intelligence 33.12 (2011): 2341-2353.]()
-[He, Kaiming, Jian Sun, and Xiaoou Tang. "X.: Guided image filtering." In: ECCV. 2010.]()
+
+### Instructions
+    folder structure:
+        image # image folder
+            14.png
+            15.png # main image
+            16.png
+            J.png
+        dehaze.py # file to execute
+    
+    To dehaze:
+        1. save your image file as 15.png in the ./image folder
+        2. run python3 dehaze.py the output 'J.png' will be saved in the same folder
 
 ## Examples
 <center>
