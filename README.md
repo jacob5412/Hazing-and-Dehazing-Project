@@ -29,9 +29,7 @@ License:
     
 Instructions:  
 ###
-    This code has been tested in Windows10-64bit with Python3.4 installed.  
-    1. clone this project and put all the files in the same folder
-    2. folder structure:
+    folder structure:
     
           FoHIS/const.py  # define const
                 fog.py  # main
@@ -47,16 +45,16 @@ Instructions:
               imgd.jpg  # depth image
               result.jpg  # simulation
               
-    3. To simulate fog/haze effects:
+    1. To simulate fog/haze effects:
         run python FoHIS/fog.py, the output 'result.jpg' will be saved in ../img/
           
-    4. To evaluate the authenticity:
+    2. To evaluate the authenticity:
         run python compute_authenticity.py to evaluate 'result.jpg' in ../img/
                   
 
 Dataset:
 ###
-![image](https://github.com/noahzn/FoHIS/blob/master/img/dataset.png)
+![image](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/Hazing/img/dataset.png)
 
 | Source Image  | Maximum Depth | Effect | Homogeneous | Particular Elevation|
 |:-------------:|:-------------:|:------:|:-----------:|:-------------------:|
