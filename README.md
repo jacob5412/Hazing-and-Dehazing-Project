@@ -5,7 +5,7 @@
 Implementation of Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior.
 
 ### Research Papers
-Q. Zhu, J. Mai, and L. Shao ,"A Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior", in IEEE Transactions On Image Processing, Vol. 24, NO. 11, NOVEMBER 2015, pp. 3522-3533
+    Q. Zhu, J. Mai, and L. Shao ,"A Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior", in IEEE Transactions On Image Processing, Vol. 24, NO. 11, NOVEMBER 2015, pp. 3522-3533
 
 ### Dependencies
 1. Python 3.6+
@@ -14,23 +14,44 @@ Q. Zhu, J. Mai, and L. Shao ,"A Fast Single Image Haze Removal Algorithm Using C
    * cv2
    * matplotlib
 
+### Instructions
+    folder structure:
+        dehazed.jpg # dehazed output
+        vit.jpg # sample input image
+        room.jpeg
+        dehaze.py # main
+    
+    To dehaze:
+        run python3 dehaze.py vit.jpg the output 'dehazed.jpg' will be saved in the same folder
+
 ### Contributions
 * _Original author_ - [TummanapallyAnuraag](https://github.com/TummanapallyAnuraag)
 * _Made code reproducible_ - [jacobjohn2016](https://github.com/jacobjohn2016)
 
-## Image Hazing: Towards Simulating Foggy and Hazy Images and Evaluating their Authenticity
-Ning Zhang, Lin Zhang*, and Zaixi Cheng
+## Image Hazing
 
-License:
-###
+### Research Papers
+    Zhang, Ning, Lin Zhang, and Zaixi Cheng. "Towards Simulating Foggy and Hazy Images and Evaluating Their Authenticity." International Conference on Neural Information Processing. Springer, Cham, 2017.
+
+### License:
     This code is made publicly for research use only. 
     It may be modified and redistributed under the terms of the GNU General Public License.
     Please cite the paper and source code if you are using it in your work.
-    
-Instructions:  
-###
+
+### Dependencies
+1. Python 3.6+
+2. Python Packages
+   * numpy
+   * cv2
+   * math
+   * matplotlib
+   * tool_kit
+   * scipy.io 
+   * noise
+   * PIL
+
+### Instructions:  
     folder structure:
-    
           FoHIS/const.py  # define const
                 fog.py  # main
                 parameter.py # all parameters used in simulating fog/haze are defined here.
@@ -52,8 +73,7 @@ Instructions:
         run python compute_authenticity.py to evaluate 'result.jpg' in ../img/
                   
 
-Dataset:
-###
+### Dataset:
 ![image](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/Hazing/img/dataset.png)
 
 | Source Image  | Maximum Depth | Effect | Homogeneous | Particular Elevation|
