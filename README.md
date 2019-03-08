@@ -5,7 +5,7 @@
 Implementation of Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior.
 
 ### Research Papers
-    Q. Zhu, J. Mai, and L. Shao ,"A Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior", in IEEE Transactions On Image Processing, Vol. 24, NO. 11, NOVEMBER 2015, pp. 3522-3533
+Q. Zhu, J. Mai, and L. Shao ,"A Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior", in IEEE Transactions On Image Processing, Vol. 24, NO. 11, NOVEMBER 2015, pp. 3522-3533
 
 ### Dependencies
 1. Python 3.6+
@@ -31,7 +31,7 @@ Implementation of Fast Single Image Haze Removal Algorithm Using Color Attenuati
 ## Image Hazing
 
 ### Research Papers
-    Zhang, Ning, Lin Zhang, and Zaixi Cheng. "Towards Simulating Foggy and Hazy Images and Evaluating Their Authenticity." International Conference on Neural Information Processing. Springer, Cham, 2017.
+Zhang, Ning, Lin Zhang, and Zaixi Cheng. "Towards Simulating Foggy and Hazy Images and Evaluating Their Authenticity." International Conference on Neural Information Processing. Springer, Cham, 2017.
 
 ### License:
     This code is made publicly for research use only. 
@@ -96,3 +96,7 @@ Implementation of Fast Single Image Haze Removal Algorithm Using Color Attenuati
 | (p)           |     1000 m    | Haze   |      Yes    |         No          |
 | (q)           |     400 m     | Haze   |      Yes    |         No          |
 | (r)           |     300 m     | Haze   |      Yes    |         No          |
+
+### Contributions
+* _Original author_ - [noahzn (Noah)](https://github.com/noahzn)
+* _Made code reproducible_ - [jacobjohn2016](https://github.com/jacobjohn2016)
