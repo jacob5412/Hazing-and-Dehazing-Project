@@ -1,6 +1,6 @@
 # Hazing and Dehazing image processing project
 
-## ImgDehazing
+## Dehazing
 
 Implementation of Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior.
 
@@ -28,7 +28,7 @@ Q. Zhu, J. Mai, and L. Shao ,"A Fast Single Image Haze Removal Algorithm Using C
 * _Original author_ - [TummanapallyAnuraag](https://github.com/TummanapallyAnuraag)
 * _Made code reproducible_ - [jacobjohn2016](https://github.com/jacobjohn2016)
 
-## Image Hazing
+## Hazing
 
 ### [Research Paper](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/zhang2017.pdf)
 Zhang, Ning, Lin Zhang, and Zaixi Cheng. "Towards Simulating Foggy and Hazy Images and Evaluating Their Authenticity." International Conference on Neural Information Processing. Springer, Cham, 2017.
