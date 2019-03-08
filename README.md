@@ -5,7 +5,7 @@
 Implementation of Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior.
 
 ### [Research Paper](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/qingsongzhu2015.pdf)
-Q. Zhu, J. Mai, and L. Shao ,"A Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior", in IEEE Transactions On Image Processing, Vol. 24, NO. 11, NOVEMBER 2015, pp. 3522-3533
+* Q. Zhu, J. Mai, and L. Shao ,"A Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior", in IEEE Transactions On Image Processing, Vol. 24, NO. 11, NOVEMBER 2015, pp. 3522-3533
 
 ### Dependencies
 1. Python 3.6+
@@ -32,8 +32,8 @@ Q. Zhu, J. Mai, and L. Shao ,"A Fast Single Image Haze Removal Algorithm Using C
 This program implement single image dehazing using dark channel prior. 
 
 ## Research Papers
-[He, Kaiming, Jian Sun, and Xiaoou Tang. "Single image haze removal using dark channel prior." IEEE transactions on pattern analysis and machine intelligence 33.12 (2011): 2341-2353.](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/kaiminghe2011.pdf)
-[He, Kaiming, Jian Sun, and Xiaoou Tang. "X.: Guided image filtering." In: ECCV. 2010.](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/he2010.pdf)
+* [He, Kaiming, Jian Sun, and Xiaoou Tang. "Single image haze removal using dark channel prior." IEEE transactions on pattern analysis and machine intelligence 33.12 (2011): 2341-2353.](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/kaiminghe2011.pdf)
+* [He, Kaiming, Jian Sun, and Xiaoou Tang. "X.: Guided image filtering." In: ECCV. 2010.](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/he2010.pdf)
 
 ### Dependencies
 1. Python 3.7
@@ -55,13 +55,13 @@ This program implement single image dehazing using dark channel prior.
         1. save your image file as 15.png in the ./image folder
         2. run python3 dehaze.py the output 'J.png' will be saved in the same folder
 
-## Examples
+### Examples
 <center>
 <img src="./image/15.png"  height = "400" alt="Before Image" />
 <img src="./image/J.png"   height = "400" alt="After Dehazing" />
 </center>
 
-## [Blog](http://www.freethatphoto.com/how-dehazing-works-photo/)
+### [Blog](http://www.freethatphoto.com/how-dehazing-works-photo/)
 - How dehazing works: a simple explanation
 
 ### Contributions
@@ -71,7 +71,7 @@ This program implement single image dehazing using dark channel prior.
 ## Hazing
 
 ### [Research Paper](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/zhang2017.pdf)
-Zhang, Ning, Lin Zhang, and Zaixi Cheng. "Towards Simulating Foggy and Hazy Images and Evaluating Their Authenticity." International Conference on Neural Information Processing. Springer, Cham, 2017.
+* Zhang, Ning, Lin Zhang, and Zaixi Cheng. "Towards Simulating Foggy and Hazy Images and Evaluating Their Authenticity." International Conference on Neural Information Processing. Springer, Cham, 2017.
 
 ### License:
     This code is made publicly for research use only. 
