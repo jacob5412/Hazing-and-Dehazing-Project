@@ -1,6 +1,6 @@
 # Hazing and Dehazing image processing project
 
-## Dehazing
+## Dehazing - Color Attenuation
 
 Implementation of Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior.
 
@@ -26,6 +26,33 @@ Q. Zhu, J. Mai, and L. Shao ,"A Fast Single Image Haze Removal Algorithm Using C
 
 ### Contributions
 * _Original author_ - [TummanapallyAnuraag](https://github.com/TummanapallyAnuraag)
+* _Made code reproducible_ - [jacobjohn2016](https://github.com/jacobjohn2016)
+
+## Dehazing - Dark Channel Prior
+This program implement single image dehazing using dark channel prior. 
+
+### Dependencies
+1. Python 3.7
+2. Python Packages
+   * numpy
+   * cv2
+   * matplotlib
+  
+## Research Papers
+[He, Kaiming, Jian Sun, and Xiaoou Tang. "Single image haze removal using dark channel prior." IEEE transactions on pattern analysis and machine intelligence 33.12 (2011): 2341-2353.]()
+[He, Kaiming, Jian Sun, and Xiaoou Tang. "X.: Guided image filtering." In: ECCV. 2010.]()
+
+## Examples
+<center>
+<img src="./image/15.png"  height = "400" alt="Before Image" />
+<img src="./image/J.png"   height = "400" alt="After Dehazing" />
+</center>
+
+## [Blog](http://www.freethatphoto.com/how-dehazing-works-photo/)
+- How dehazing works: a simple explanation
+
+### Contributions
+* _Original author_ - [He-Zhang](https://github.com/He-Zhang/image_dehaze)
 * _Made code reproducible_ - [jacobjohn2016](https://github.com/jacobjohn2016)
 
 ## Hazing
