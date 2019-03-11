@@ -32,7 +32,7 @@ Implementation of Fast Single Image Haze Removal Algorithm Using Color Attenuati
 ## Dehazing - Dark Channel Prior
 This program implement single image dehazing using dark channel prior. 
 
-## Research Papers
+### Research Papers
 * [He, Kaiming, Jian Sun, and Xiaoou Tang. "Single image haze removal using dark channel prior." IEEE transactions on pattern analysis and machine intelligence 33.12 (2011): 2341-2353.](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/kaiminghe2011.pdf)
 * [He, Kaiming, Jian Sun, and Xiaoou Tang. "X.: Guided image filtering." In: ECCV. 2010.](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/he2010.pdf)
 
