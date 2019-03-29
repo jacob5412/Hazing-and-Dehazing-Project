@@ -33,6 +33,7 @@ def AtmLight(im,dark):
     # return indices that would sort the array (descending order)
     # Since the lightest regions of the dark channel correspond to the haziest part of the original image.
     indices = darkvec.argsort();
+    # taking those brightest pixels from the array
     indices = indices[imsz-numpx::]
 
     atmsum = np.zeros([1,3])                    # return array of zeros
