@@ -23,6 +23,7 @@ def AtmLight(im,dark):
 
     # If we select the brightest 0.1% of the dark channel we will get the haziest pixels
     # Note: x*(0.1/100) = x/1000
+    # any image can have a minimum of only 1 pixel or 0.1% brightest of dark channel as 1 pixel
     numpx = int(max(math.floor(imsz/1000),1))
 
     # reshape as 1 column array of size 'imsz'
