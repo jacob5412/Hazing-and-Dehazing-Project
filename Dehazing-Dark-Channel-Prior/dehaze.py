@@ -21,7 +21,9 @@ def AtmLight(im,dark):
     # image size would be height * width
     imsz = h*w
 
-    # check number of pixels in multiples of 1000s
+    # If we select the brightest 0.1% of the dark channel we will get the haziest pixels
+    # Note: x*(0.1/100) = x/1000
+    # any image can have a minimum of only 1 pixel or 0.1% brightest of dark channel as 1 pixel
     numpx = int(max(math.floor(imsz/1000),1))
 
     # reshape as 1 column array of size 'imsz'
@@ -32,7 +34,7 @@ def AtmLight(im,dark):
     # return indices that would sort the array (descending order)
     # Since the lightest regions of the dark channel correspond to the haziest part of the original image.
     indices = darkvec.argsort();
-    # If we select the brightest 0.1% of the dark channel we will get the haziest pixels
+    # taking those brightest pixels from the array
     indices = indices[imsz-numpx::]
 
     atmsum = np.zeros([1,3])                    # return array of zeros
