@@ -1,6 +1,9 @@
 # Project files
 */.DS_Store
 .DS_Store
+Depth-Map/data/nyu_depth_data_labeled.mat
+Depth-Map/data/nyu_depth_v2_labeled.mat
+Depth-Map/all-scales-trained.ckpt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -67,11 +67,6 @@ run python3 dehaze.py the output 'J.png' will be saved in the same folder
 ### [Research Paper](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/zhang2017.pdf)
 * Zhang, Ning, Lin Zhang, and Zaixi Cheng. "Towards Simulating Foggy and Hazy Images and Evaluating Their Authenticity." International Conference on Neural Information Processing. Springer, Cham, 2017.
 
-### License:
-* This code is made publicly for research use only. 
-* It may be modified and redistributed under the terms of the GNU General Public License.
-* Please cite the paper and source code if you are using it in your work.
-
 ### Instructions:  
 ```bash
 folder structure:
@@ -104,3 +99,29 @@ run python compute_authenticity.py to evaluate 'result.jpg' in ../img/
 ### Contributions
 * _Original author_ - [noahzn (Noah)](https://github.com/noahzn)
 * _Made code reproducible_ - [jacobjohn2016](https://github.com/jacobjohn2016)
+
+## Depth Map
+
+1. [Facebook 3D Photo Depth Map Generator using Monodepth](https://3dphoto.io/uploader/)
+2. [DhruvJawalkar/Depth-Map-Prediction-from-a-Single-Image-using-a-Multi-Scale-Deep-Network](https://github.com/DhruvJawalkar/Depth-Map-Prediction-from-a-Single-Image-using-a-Multi-Scale-Deep-Network)
+
+### Instructions
+
+```bash
+.
+├── custom_transforms.py
+├── data
+│   └── add_dataset_files.md # add NYU dataset here
+├── dataset.py
+├── depth-prediction.ipynb # run this notebook
+├── imgs # put your own images here
+├── model_utils.py
+├── nn_model.py
+└── plot_utils.py
+```
+
+1. Download `NYUDataset` using steps from [Mega](https://mega.nz/folder/LkBnwKaJ#h1_Mk9mUYdy3UZEc85GDMw).
+2. Place them in the `Depth-Map/data` folder.
+3. Download model weights from [Mega](https://mega.nz/file/XtoEwJ4Y#qL9LcfmJycCXgGxPdU3c0qYMkW1sc-c1FoDIy53VeaE) and place them in the `Depth-Map` folder.
+4. Place your own images in `Depth-Map/imgs`
+5. Run the `Depth-Map/depth-prediction.ipynb` notebook.
