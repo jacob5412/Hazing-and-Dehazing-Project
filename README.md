@@ -12,10 +12,9 @@ Implementation of Fast Single Image Haze Removal Algorithm Using Color Attenuati
 ```bash
 folder structure:
 ------------------
-dehazed.jpg # dehazed output
-vit.jpg # sample input image
-room.jpeg
-dehaze.py # main
+Dehazing-Color-Attenuation/dehazed.jpg # dehazed output
+                           vit.jpg # sample input image
+                           dehaze.py # main
 ```
     
 To dehaze:
@@ -38,12 +37,12 @@ This program implement single image dehazing using dark channel prior.
 ```bash
 folder structure:
 ------------------
-image # image folder
-    14.png
-    15.png # main image
-    16.png
-    J.png
-dehaze.py # file to execute
+Dehazing-Dark-Channel-Prior/image/ # image folder
+                                14.png
+                                15.png # main image
+                                16.png
+                                J.png
+Dehazing-Dark-Channel-Prior/dehaze.py # file to execute
 ```
 To dehaze save your image file as 15.png in the `./image` folder:
 ```bash
@@ -69,37 +68,37 @@ run python3 dehaze.py the output 'J.png' will be saved in the same folder
 * Zhang, Ning, Lin Zhang, and Zaixi Cheng. "Towards Simulating Foggy and Hazy Images and Evaluating Their Authenticity." International Conference on Neural Information Processing. Springer, Cham, 2017.
 
 ### License:
-    This code is made publicly for research use only. 
-    It may be modified and redistributed under the terms of the GNU General Public License.
-    Please cite the paper and source code if you are using it in your work.
+* This code is made publicly for research use only. 
+* It may be modified and redistributed under the terms of the GNU General Public License.
+* Please cite the paper and source code if you are using it in your work.
 
 ### Instructions:  
 ```bash
 folder structure:
 ------------------
-FoHIS/const.py  # define const
-      fog.py  # main
-      parameter.py # all parameters used in simulating fog/haze are defined here.
-      tool_kit.py # some useful functions
+Hazing/FoHIS/const.py  # define const
+             fog.py  # main
+             parameter.py # all parameters used in simulating fog/haze are defined here.
+             tool_kit.py # some useful functions
     
-AuthESI/compute_aggd.py
-        compute_authenticity.py  # main
-        guided_filter.py  # some functions
-        prisparam_16_hazeandfog.mat  # pre-trained model
+Hazing/AuthESI/compute_aggd.py
+               compute_authenticity.py  # main
+               guided_filter.py  # some functions
+               prisparam_16_hazeandfog.mat  # pre-trained model
         
-img/img.jpg  # RGB image
-    imgd.jpg  # depth image
-    result.jpg  # simulation
+Hazing/img/img.jpg  # RGB image
+           imgd.jpg  # depth image
+           result.jpg  # simulation
 ```
 
 1. To simulate fog/haze effects:
 ```bash
-run python FoHIS/fog.py, the output 'result.jpg' will be saved in /img
+run python fog.py, the output 'result.jpg' will be saved in ../img/
 ```
 
 2. To evaluate the authenticity:
 ```bash
-run python AuthESI/compute_authenticity.py to evaluate 'result.jpg' in /img
+run python compute_authenticity.py to evaluate 'result.jpg' in ../img/
 ```                  
 
 ### Contributions
