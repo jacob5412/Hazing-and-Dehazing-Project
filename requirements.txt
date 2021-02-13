@@ -12,6 +12,7 @@ cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
 entrypoints==0.3
+h5py==3.1.0
 imageio==2.9.0
 ipykernel==5.4.3
 ipython==7.20.0
@@ -76,6 +77,8 @@ testpath==0.4.4
 threadpoolctl==2.1.0
 tifffile==2021.2.1
 toml==0.10.2
+torch==1.7.1
+torchvision==0.8.2
 tornado==6.1
 traitlets==5.0.5
 typed-ast==1.4.2
