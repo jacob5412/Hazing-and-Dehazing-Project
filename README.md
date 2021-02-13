@@ -45,9 +45,10 @@ image # image folder
     J.png
 dehaze.py # file to execute
 ```
-To dehaze:
-    1. save your image file as 15.png in the ./image folder
-    2. run python3 dehaze.py the output 'J.png' will be saved in the same folder
+To dehaze save your image file as 15.png in the `./image` folder:
+```bash
+run python3 dehaze.py the output 'J.png' will be saved in the same folder
+```
 
 ### Examples - Before and After Dehazing
 <center>
@@ -77,9 +78,9 @@ To dehaze:
 folder structure:
 ------------------
 FoHIS/const.py  # define const
-    fog.py  # main
-    parameter.py # all parameters used in simulating fog/haze are defined here.
-    tool_kit.py # some useful functions
+      fog.py  # main
+      parameter.py # all parameters used in simulating fog/haze are defined here.
+      tool_kit.py # some useful functions
     
 AuthESI/compute_aggd.py
         compute_authenticity.py  # main
