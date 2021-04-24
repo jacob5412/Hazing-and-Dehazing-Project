@@ -106,7 +106,7 @@ if __name__ == "__main__":
     try:
         fn = sys.argv[1]
     except:
-        fn = "./image/14.png"
+        fn = "./image/vit_hazy.png"
 
     #    def nothing(*argv):
     #        pass
