@@ -1,6 +1,7 @@
 import cv2
 import math
 import numpy as np
+import os
 
 
 def DarkChannel(im, sz):
@@ -103,13 +104,10 @@ def Recover(im, t, A, tx=0.1):
 if __name__ == "__main__":
     import sys
 
-    try:
-        fn = sys.argv[1]
-    except:
-        fn = "./image/vit_hazy.png"
+    fn = sys.argv[1]
 
-    #    def nothing(*argv):
-    #        pass
+    filename = os.path.split(fn)[-1].split(".")[0]
+    filepath = os.path.split(fn)[0]
 
     src = cv2.imread(fn)
     # read the image
@@ -137,5 +135,5 @@ if __name__ == "__main__":
     # original image
     cv2.imshow("J", J)
     # image after dehazing
-    cv2.imwrite("./image/J.png", J * 255)
+    cv2.imwrite(os.path.join(filepath, filename + "_dehazed.png"), J * 255)
     cv2.waitKey()

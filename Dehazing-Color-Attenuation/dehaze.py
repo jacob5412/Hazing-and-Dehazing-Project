@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 from scipy import signal as sig
-import math
+import os
 
 # import guidedfilter
 # from guidedfilter import guidedfilter as gF
@@ -79,10 +79,10 @@ def postprocessing(GD, I):
 if __name__ == "__main__":
     import sys
 
-    try:
-        fn = sys.argv[1]
-    except:
-        fn = "./initial.jpg"
+    fn = sys.argv[1]
+
+    filename = os.path.split(fn)[-1].split(".")[0]
+    filepath = os.path.split(fn)[0]
 
     # Read the Image
     _I = cv2.imread(fn)
@@ -103,9 +103,9 @@ if __name__ == "__main__":
     sigma = 0.041337
     epsilon = np.random.normal(0, sigma, H.shape)
     D = theta_0 + theta_1 * V + theta_2 * S + epsilon
-    
+
     # saving depth map
-    plt.imsave("depth_map.jpg", D)
+    plt.imsave(os.path.join(filepath, filename + "_depth_map.jpg"), D)
 
     # Local Minima of Depth map
     LMD = localmin(D, 15)
@@ -131,4 +131,4 @@ if __name__ == "__main__":
 
     # save the depthmap.
     # Note: It will be saved as gray image.
-    plt.imsave("dehazed.jpg", J)
+    plt.imsave(os.path.join(filepath, filename + "_dehazed.jpg"), J)
