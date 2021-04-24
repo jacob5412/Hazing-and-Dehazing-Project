@@ -17,9 +17,9 @@ Dehazing-Color-Attenuation/dehazed.jpg # dehazed output
                            dehaze.py # main
 ```
     
-To dehaze:
+To dehaze run:
 ```bash
-run python3 dehaze.py vit.jpg the output 'dehazed.jpg' will be saved in the same folder
+python3 dehaze.py vit.jpg # the output 'dehazed.jpg' will be saved in the same folder
 ```
 
 ### Contributions
@@ -27,7 +27,7 @@ run python3 dehaze.py vit.jpg the output 'dehazed.jpg' will be saved in the same
 * _Made code reproducible_ - [jacobjohn2016](https://github.com/jacobjohn2016)
 
 ## Dehazing - Dark Channel Prior
-This program implement single image dehazing using dark channel prior. 
+This program implement single image dehazing using dark channel prior.
 
 ### Research Papers
 * [He, Kaiming, Jian Sun, and Xiaoou Tang. "Single image haze removal using dark channel prior." IEEE transactions on pattern analysis and machine intelligence 33.12 (2011): 2341-2353.](https://github.com/jacobjohn2016/Hazing-and-Dehazing-Project/blob/master/kaiminghe2011.pdf)
@@ -44,15 +44,15 @@ Dehazing-Dark-Channel-Prior/image/ # image folder
                                 J.png
 Dehazing-Dark-Channel-Prior/dehaze.py # file to execute
 ```
-To dehaze save your image file as 15.png in the `./image` folder:
+To dehaze save your image file in the `./image` folder, e.g. `15.png`:
 ```bash
-run python3 dehaze.py the output 'J.png' will be saved in the same folder
+python3 dehaze.py image/15.png # the output 'J.png' will be saved in the same folder
 ```
 
 ### Examples - Before and After Dehazing
 <center>
-<img src="./Dehazing-Dark-Channel-Prior/image/14.png"  height = "400" alt="Before Dehazing" />
-<img src="./Dehazing-Dark-Channel-Prior/image/J.png"   height = "400" alt="After Dehazing" />
+<img src="./Dehazing-Dark-Channel-Prior/image/vit_hazy.png"  height = "400" alt="Before Dehazing" />
+<img src="./Dehazing-Dark-Channel-Prior/image/vit_dehazed.png"   height = "400" alt="After Dehazing" />
 </center>
 
 ### [Blog](http://www.freethatphoto.com/how-dehazing-works-photo/)
@@ -86,14 +86,14 @@ Hazing/img/img.jpg  # RGB image
            result.jpg  # simulation
 ```
 
-1. To simulate fog/haze effects:
+1. To simulate fog/haze effects run p:
 ```bash
-run python fog.py, the output 'result.jpg' will be saved in ../img/
+python fog.py # the output 'result.jpg' will be saved in ../img/
 ```
 
-2. To evaluate the authenticity:
+2. To evaluate the authenticity run :
 ```bash
-run python compute_authenticity.py to evaluate 'result.jpg' in ../img/
+python compute_authenticity.py # to evaluate 'result.jpg' in ../img/
 ```                  
 
 ### Contributions

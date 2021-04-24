@@ -103,6 +103,9 @@ if __name__ == "__main__":
     sigma = 0.041337
     epsilon = np.random.normal(0, sigma, H.shape)
     D = theta_0 + theta_1 * V + theta_2 * S + epsilon
+    
+    # saving depth map
+    plt.imsave("depth_map.jpg", D)
 
     # Local Minima of Depth map
     LMD = localmin(D, 15)
