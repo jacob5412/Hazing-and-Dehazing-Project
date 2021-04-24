@@ -59,7 +59,7 @@ python3 dehaze.py image/city2_hazy.png # the output 'city2_hazy_dehazed.png' wil
 <img src="./Dehazing-Dark-Channel-Prior/vit_hazy_dehazed.png"   height = "400" alt="After Dehazing" />
 </center>
 
-### [Blog](http://www.freethatphoto.com/how-dehazing-works-photo/)
+### [Blog](http://web.archive.org/web/20180725124811/http://www.freethatphoto.com/how-dehazing-works-photo/)
 
 - How dehazing works: a simple explanation
 
