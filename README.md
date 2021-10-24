@@ -1,6 +1,6 @@
-# Hazing and Dehazing image processing project
+# Image Dehazing Through Dark Channel Prior and Color Attenuation Prior
 
-CSE4019: Image Processing at VIT, Vellore.
+**Paper**: John J., Sevugan P. (2021) Image Dehazing Through Dark Channel Prior and Color Attenuation Prior. In: Singh M., Tyagi V., Gupta P.K., Flusser J., Ören T., Sonawane V.R. (eds) Advances in Computing and Data Sciences. ICACDS 2021. Communications in Computer and Information Science, vol 1441. Springer, Cham. https://doi.org/10.1007/978-3-030-88244-0_15
 
 ## Dehazing - Color Attenuation
 
